@@ -9,7 +9,8 @@
 [![Super User Adoption](https://img.shields.io/badge/Template-Super%20User%20Adoption-blue)](https://aka.ms/decodingsuperusage)
 [![Super User Impact](https://img.shields.io/badge/Template-Super%20User%20Impact-green)](https://aka.ms/superuserimpact)
 
-[Expand All](#) • [Collapse All](#)
+⭐ **Star this repository** to receive notifications about new template versions
+👀 **Watch** for updates and announcements
 
 </div>
 
