@@ -4,6 +4,8 @@
 
 **Downloadable add-on pages and customizations for Microsoft's Copilot adoption and impact analytics templates**
 
+**Plug these add-ons into the base templates below:**
+
 [![Super User Adoption](https://img.shields.io/badge/Template-Super%20User%20Adoption-blue)](https://aka.ms/decodingsuperusage)
 [![Super User Impact](https://img.shields.io/badge/Template-Super%20User%20Impact-green)](https://aka.ms/superuserimpact)
 
@@ -14,7 +16,9 @@
 ---
 
 <details open>
-<summary><h2>📖 Introduction</h2></summary>
+<summary><strong>📖 Introduction</strong></summary>
+
+<br>
 
 This repository provides ready-to-use add-on pages that extend Microsoft's official Copilot analytics templates. Each add-on is designed to be imported into your existing reports, providing additional insights and visualizations without requiring you to start from scratch.
 
@@ -38,7 +42,9 @@ These add-ons are compatible with:
 ---
 
 <details>
-<summary><h2>🔄 How to Merge Templates</h2></summary>
+<summary><strong>🔄 How to Merge Templates</strong></summary>
+
+<br>
 
 ### Prerequisites
 
@@ -150,7 +156,9 @@ Open the modified `.pbip` in Power BI Desktop and verify everything loads correc
 ---
 
 <details>
-<summary><h2>🏆 Champion ID Pages</h2></summary>
+<summary><strong>🏆 Champion ID Pages</strong></summary>
+
+<br>
 
 ### Overview
 
@@ -278,7 +286,10 @@ For questions or issues specific to the Champion ID Pages:
 
 ---
 
-## 🚀 Getting Started
+<details open>
+<summary><strong>🚀 Getting Started</strong></summary>
+
+<br>
 
 1. **Download the latest version** of your base template ([Adoption](https://aka.ms/decodingsuperusage) or [Impact](https://aka.ms/superuserimpact))
 2. **Browse add-ons** in this repository and download the ones you need
@@ -286,31 +297,7 @@ For questions or issues specific to the Champion ID Pages:
 4. **Verify dependencies** listed in each add-on's README
 5. **Test with your data** before deploying to production
 
----
-
-## 📚 Additional Resources
-
-- [Power BI Documentation](https://docs.microsoft.com/power-bi/)
-- [Viva Insights Overview](https://docs.microsoft.com/viva/insights/)
-- [Microsoft Copilot Adoption Resources](https://adoption.microsoft.com/copilot/)
-- [Power BI Community Forum](https://community.powerbi.com/)
-
----
-
-## 🤝 Contributing
-
-Have a custom page or visualization that would benefit the community? We welcome contributions!
-
-1. Fork this repository
-2. Create a new folder for your add-on
-3. Include a detailed README with dependencies and use cases
-4. Submit a pull request
-
-**Contribution Guidelines:**
-- Add-ons must work with official Microsoft templates
-- Include complete dependency documentation
-- Provide clear use cases and value proposition
-- Follow the existing folder structure and naming conventions
+</details>
 
 ---
 
