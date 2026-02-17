@@ -208,7 +208,7 @@ These pages require the following data to function properly:
 
 #### Required Measures
 
-The Champion ID pages depend on **25 measures** that must exist in your target report. **Good news:** If you're using the latest version (v5+) of the Super User Adoption or Super User Impact templates, all required measures are already included!
+The Champion ID pages depend on **25 measures** that must exist in your target report. **Good news:** If you're using the latest version (v4+) of the Super User Adoption or Super User Impact templates, all required measures are already included!
 
 <details>
 <summary>View complete list of required measures (click to expand)</summary>
