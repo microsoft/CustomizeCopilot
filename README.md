@@ -302,20 +302,6 @@ For questions or issues specific to the Champion ID Pages:
 
 ---
 
-## 📄 License
-
-These add-ons are provided as-is and require the base templates (Super User Adoption or Super User Impact) to function properly.
-
----
-
-## 🔔 Stay Updated
-
-- ⭐ **Star this repository** to receive notifications about new add-ons
-- 👀 **Watch** for updates and announcements
-- 🔄 Check back regularly for new add-ons and template updates
-
----
-
 <div align="center">
 
 **Made with ❤️ for the Copilot adoption community**
