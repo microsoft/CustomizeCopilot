@@ -21,7 +21,7 @@
 
 <br>
 
-This repository provides ready-to-use add-on pages that extend Microsoft's official Copilot analytics templates. Each add-on is designed to be imported into your existing reports, providing additional insights and visualizations without requiring you to start from scratch.
+This repository provides ready-to-use add-on pages that extend Copilot analytics templates built by the MSFT Copilot ROI Analytics team. Each add-on is designed to be imported into your existing reports, providing additional insights and visualizations without requiring you to start from scratch.
 
 ### Main Templates
 
