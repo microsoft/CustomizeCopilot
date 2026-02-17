@@ -323,25 +323,3 @@ These add-ons are provided as-is and require the base templates (Super User Adop
 Questions? Visit our [Discussions](https://github.com/microsoft/CustomizeCopilot/discussions) page
 
 </div>
-
-<script>
-// Expand/Collapse All functionality
-document.addEventListener('DOMContentLoaded', function() {
-    const expandLink = document.querySelector('a[href="#"]:nth-of-type(1)');
-    const collapseLink = document.querySelector('a[href="#"]:nth-of-type(2)');
-
-    if (expandLink) {
-        expandLink.addEventListener('click', function(e) {
-            e.preventDefault();
-            document.querySelectorAll('details').forEach(d => d.open = true);
-        });
-    }
-
-    if (collapseLink) {
-        collapseLink.addEventListener('click', function(e) {
-            e.preventDefault();
-            document.querySelectorAll('details').forEach(d => d.open = false);
-        });
-    }
-});
-</script>
