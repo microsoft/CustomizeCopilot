@@ -152,20 +152,23 @@ The Champion ID pages depend on **25 DAX measures** that must exist in your targ
 
 ## Installation
 
-### Method 1: Import Pages Directly (Recommended)
+### Download
+
+Grab **[`Champion ID.pbix`](./Champion%20ID.pbix)** from this folder. It's a ready-to-open Power BI report containing both Champion ID pages and sample data — no parameters or data connection required to preview.
+
+> The earlier template format (`Champion ID Pages.pbit`) has been moved to [`archive/`](./archive/) for reference. The `.pbix` is the recommended download going forward because it opens instantly, lets you preview the pages with sample data, and supports the same copy/paste workflow without prompting for credentials.
+
+### Method 1: Copy Pages Into Your Report (Recommended)
 
 1. **Open your main report** (Super User Adoption or Impact) in Power BI Desktop
-2. **Open the add-on template**:
-   - Launch a second instance of Power BI Desktop
-   - Open `Champion ID Pages.pbit`
-   - Connect to your data source when prompted
+2. **Open `Champion ID.pbix`** in a second Power BI Desktop window — it opens directly with no prompts
 3. **Copy pages**:
-   - In the add-on window, right-click on "Champion ID Page 1" → Select "Copy"
+   - In the `Champion ID.pbix` window, right-click on "Champion ID Page 1" in the Pages pane → Select "Copy page"
    - Switch to your main report window
    - Right-click in the Pages pane → Select "Paste"
    - Repeat for "Champion ID Page 2"
 4. **Verify**:
-   - Check that all visuals display correctly
+   - Check that all visuals display correctly against your data
    - Test filters and interactions
    - Verify network metrics (if using Viva Insights data)
 5. **Save** your updated report
@@ -267,6 +270,11 @@ Have questions or issues with the Champion ID Pages?
 ---
 
 ## Version History
+
+### v1.1 (May 2026)
+- Switched primary distribution to `Champion ID.pbix` for one-click open and copy/paste
+- Archived the original `Champion ID Pages.pbit` under `archive/` for reference
+- Refreshed sample data
 
 ### v1.0 (February 2026)
 - Initial release
