@@ -1,12 +1,38 @@
-# Champion ID Pages
+<div align="center">
 
-**Person-level analytics for identifying and analyzing your top Copilot champions**
+<br>
+
+# 🏆 Champion ID Pages
+
+### Person-level analytics for identifying and analyzing your top Copilot champions.
+
+<br>
+
+[![Built by Microsoft](https://img.shields.io/badge/Built%20by-Microsoft-0078d4?style=for-the-badge&logo=microsoft&logoColor=white)](https://microsoft.github.io/Analytics-Hub/team/)
+[![Analytics Hub](https://img.shields.io/badge/Analytics%20Hub-Origin%20Site-8661c5?style=for-the-badge&logo=github&logoColor=white)](https://microsoft.github.io/Analytics-Hub/)
+
+<br>
+
+**🌐 Origin site:** [microsoft.github.io/Analytics-Hub](https://microsoft.github.io/Analytics-Hub/)
+
+<br>
+
+**[Overview ↓](#overview)** &nbsp;·&nbsp; **[Installation ↓](#installation)** &nbsp;·&nbsp; **[Prerequisites ↓](#prerequisites)** &nbsp;·&nbsp; **[Troubleshooting ↓](#troubleshooting)**
+
+<br>
+
+</div>
 
 ---
 
-## Overview
+<a id="overview"></a>
 
-The **Champion ID Pages** add-on provides detailed individual-level analytics for the Super User Adoption and Impact templates. These pages enable you to identify your organization's top Copilot users, understand their usage patterns across applications, and analyze their network influence.
+<details open>
+<summary><strong>📖 Overview</strong></summary>
+
+<br>
+
+The **Champion ID Pages** add-on provides detailed individual-level analytics for the Super User Adoption and Impact templates. These pages help you identify your organization's top Copilot users, understand their usage patterns across applications, and analyze their network influence.
 
 **Perfect for:**
 - Champion identification programs
@@ -14,86 +40,110 @@ The **Champion ID Pages** add-on provides detailed individual-level analytics fo
 - Recognition and incentive programs
 - Network-based adoption strategies
 
----
-
-## What's Included
+### What's Included
 
 This add-on contains **2 report pages**:
 
-### Champion ID Page 1: Individual Rankings & Actions
-- **Usage Rankings** - Rankings by total Copilot usage and by individual application (Word, Excel, Outlook, PowerPoint, Teams, Copilot Chat)
-- **Action Totals** - Complete breakdown of Copilot actions per person:
-  - Chat (web) and Chat (work) prompts
-  - Teams: Intelligent Recap, Summarize Chat, Summarize Meeting
-  - Outlook: Generate Email, Email Coaching, Summarize Email
-  - Word: Draft Doc, Rewrite Text, Summarize Doc, Visualize Table
-  - Excel: Create Formula, Analysis, Formatting
-  - PowerPoint: Create Presentation, Organize, Summarize, Add Content
-- **Network Metrics** - Strong ties, diverse ties, and internal network size per person (requires Viva Insights data)
-- **Activity Summary** - Average apps used and Copilot active days per person
+#### Champion ID Page 1: Individual Rankings & Actions
+- **Usage Rankings** — Rankings by total Copilot usage and by individual application (Word, Excel, Outlook, PowerPoint, Teams, Copilot Chat)
+- **Action Totals** — Complete breakdown of Copilot actions per person across every M365 app
+- **Network Metrics** — Strong ties, diverse ties, and internal network size per person (requires Viva Insights data)
+- **Activity Summary** — Average apps used and Copilot active days per person
 
-### Champion ID Page 2: Extended Analytics
+#### Champion ID Page 2: Extended Analytics
 - Additional person-level insights and comparative views
 - Temporal usage patterns across champions
 - Team-level comparisons
 
----
+### Use Cases
 
-## Use Cases
+1. **Champion Identification** — Pinpoint your most active Copilot users for peer training programs
+2. **Personalized Coaching** — Understand individual usage patterns to provide targeted support
+3. **Recognition Programs** — Identify top performers for awards or incentives
+4. **Network-Based Adoption** — Surface influential employees who can drive adoption through their networks
+5. **Adoption Analysis** — Track which applications specific users are engaging with
 
-1. **Champion Identification**
-   - Quickly identify your most active Copilot users across all M365 apps
-   - Spot application-specific experts (e.g., "Excel Copilot Champions")
-   - Build targeted champion programs based on usage data
-
-2. **Personalized Coaching**
-   - Understand each person's usage patterns to provide targeted support
-   - Identify skill gaps (e.g., users strong in Word but not using Copilot in Excel)
-   - Track individual progress over time
-
-3. **Recognition Programs**
-   - Identify top performers for awards, incentives, or public recognition
-   - Create leaderboards and gamification programs
-   - Highlight diverse usage patterns (not just volume)
-
-4. **Network-Based Adoption**
-   - Identify influential employees with large, diverse networks
-   - Select champions who can drive adoption through their connections
-   - Target users with high strong ties for peer-to-peer training
-
-5. **Adoption Analysis**
-   - Track which applications specific users are engaging with
-   - Identify early adopters vs. laggards
-   - Monitor adoption velocity across your organization
+</details>
 
 ---
 
-## Prerequisites
+<a id="installation"></a>
+
+<details open>
+<summary><strong>🚀 Installation — Open, Select All, Paste</strong></summary>
+
+<br>
+
+### Download
+
+Grab **[`Champion ID.pbix`](./Champion%20ID.pbix)** from this folder. It's a ready-to-open Power BI report containing both Champion ID pages and sample data — no parameters or data connection required to preview.
+
+> The earlier template format (`Champion ID Pages.pbit`) has been moved to [`archive/`](./archive/) for reference. The `.pbix` is the recommended download going forward because it opens instantly and the copy/paste flow below works without any prompts.
+
+### Steps
+
+#### 1. Open both reports side by side
+- Open your main report (Super User **Adoption** or **Impact**) in Power BI Desktop
+- Launch a **second** Power BI Desktop window and open `Champion ID.pbix`
+
+#### 2. Add a blank page in your target report
+- In your Adoption/Impact report, click the **+** at the bottom of the page tabs to create a new blank page
+- Name it `Champion ID` (or whatever you prefer)
+
+#### 3. Select all visuals in `Champion ID.pbix`
+- Switch to the `Champion ID.pbix` window and open a Champion ID page (start with Page 1)
+- Click anywhere on the report canvas (not on a visual), then press **`Ctrl + A`** to select every visual on the page
+
+#### 4. Copy and paste into the new page
+- Press **`Ctrl + C`**
+- Switch to your Adoption/Impact report → click into the blank `Champion ID` page
+- Press **`Ctrl + V`** — every visual lands in its original position with all formatting intact
+
+#### 5. Repeat for Page 2
+- Add a second blank page (`Champion ID — Extended`)
+- Back in `Champion ID.pbix`, switch to Page 2 → `Ctrl + A` → `Ctrl + C`
+- In your target report → `Ctrl + V` into the new blank page
+
+#### 6. Verify and save
+- Check that visuals resolve against your data (measures should bind automatically on Adoption/Impact v4+)
+- Test filters and slicers
+- **File → Save**
+
+> **Why `Ctrl + A` + paste instead of "Copy page"?** Pasting visuals into a *blank* page in your existing report keeps your report's theme, page size, and global filters in control. This is the pattern we're standardizing on across all CustomizeCopilot add-ons going forward.
+
+</details>
+
+---
+
+<a id="prerequisites"></a>
+
+<details>
+<summary><strong>🧩 Prerequisites & Compatibility</strong></summary>
+
+<br>
 
 ### Required Data Columns
 
-These columns must exist in your data source:
-
-**Core Columns:**
+**Core columns:**
 - `PersonId` (unique identifier for each person)
 - `DisplayName` (person's name for display)
 - `Date` or `MetricDate` (date of the metric)
-- `TimeZone` (person's timezone)
+- `TimeZone`
 - `Organization` (organizational unit or department)
 
-**Copilot Action Columns:**
+**Copilot action columns:**
 - Individual action columns for each Copilot feature (e.g., `Copilot actions taken in Word`, `Summarize email thread actions taken using Copilot in Outlook`, etc.)
 - Total action columns (e.g., `Total Copilot actions taken`)
 - Active days columns (e.g., `Total Copilot active days`)
 
-**Network Columns (optional but recommended):**
-- `Strong ties` - Number of strong network connections
-- `Diverse ties` - Number of diverse network connections
-- `Internal network size` - Total internal network connections
+**Network columns (optional but recommended):**
+- `Strong ties` — Number of strong network connections
+- `Diverse ties` — Number of diverse network connections
+- `Internal network size` — Total internal network connections
 
 ### Required Measures
 
-The Champion ID pages depend on **25 DAX measures** that must exist in your target report:
+The Champion ID pages depend on **25 DAX measures** that must exist in your target report.
 
 <details>
 <summary><strong>View complete list of required measures (click to expand)</strong></summary>
@@ -131,11 +181,9 @@ The Champion ID pages depend on **25 DAX measures** that must exist in your targ
 
 </details>
 
-**Good news:** If you're using **v4 or later** of the Super User Adoption or Impact templates, all required measures are already included!
+> **Good news:** If you're using **v4 or later** of the Super User Adoption or Impact templates, all required measures are already included.
 
----
-
-## Compatibility
+### Compatibility
 
 | Template | Version | Status |
 |----------|---------|--------|
@@ -144,137 +192,55 @@ The Champion ID pages depend on **25 DAX measures** that must exist in your targ
 | **Super User Impact** | v4+ | ✅ Fully Compatible |
 | Super User Impact | v3 and below | ⚠️ Requires measure updates |
 
-**Note:** If using an older template version:
-1. Update to the latest template version (recommended), OR
-2. Manually add the required measures listed above
+### Data Requirements
 
----
+- **Minimum:** 1 week of Copilot usage data from Microsoft Viva Insights or equivalent
+- **Recommended:** 4+ weeks for meaningful trend analysis
+- **Network metrics:** Require Viva Insights with network analysis enabled
 
-## Installation
+### Data Privacy
 
-### Download
-
-Grab **[`Champion ID.pbix`](./Champion%20ID.pbix)** from this folder. It's a ready-to-open Power BI report containing both Champion ID pages and sample data — no parameters or data connection required to preview.
-
-> The earlier template format (`Champion ID Pages.pbit`) has been moved to [`archive/`](./archive/) for reference. The `.pbix` is the recommended download going forward because it opens instantly, lets you preview the pages with sample data, and supports the same copy/paste workflow without prompting for credentials.
-
-### Method 1: Copy Pages Into Your Report (Recommended)
-
-1. **Open your main report** (Super User Adoption or Impact) in Power BI Desktop
-2. **Open `Champion ID.pbix`** in a second Power BI Desktop window — it opens directly with no prompts
-3. **Copy pages**:
-   - In the `Champion ID.pbix` window, right-click on "Champion ID Page 1" in the Pages pane → Select "Copy page"
-   - Switch to your main report window
-   - Right-click in the Pages pane → Select "Paste"
-   - Repeat for "Champion ID Page 2"
-4. **Verify**:
-   - Check that all visuals display correctly against your data
-   - Test filters and interactions
-   - Verify network metrics (if using Viva Insights data)
-5. **Save** your updated report
-
-### Method 2: Using Power BI Project Files (.pbip)
-
-If working with Power BI Project format:
-
-1. Locate page folders in the add-on's `.Report\definition\pages\` directory
-2. Copy the page folders to your main report's pages directory
-3. Update your report's `pages.json` file to include the new page GUIDs
-4. Open the modified report in Power BI Desktop
-
-**Detailed instructions:** See the main [CustomizeCopilot README](../README.md#how-to-merge-templates)
-
----
-
-## Data Requirements
-
-**Minimum data:**
-- 1 week of Copilot usage data from Microsoft Viva Insights or equivalent
-
-**Recommended data:**
-- 4+ weeks for meaningful trend analysis
-- Person-level Copilot usage metrics from Viva Insights
-- Network metrics (requires Viva Insights with network analysis enabled)
-
-**Data Privacy:**
 - Person-level data may be subject to organizational privacy policies
 - Ensure you have appropriate permissions to view individual-level analytics
 - Consider using aggregated views for broader audiences
 
----
-
-## Configuration
-
-### Parameters
-
-The Champion ID Pages use the same parameters as the main templates:
-
-- **SourceType**: Choose between `CSV` or `DirectQuery` (Viva Insights)
-- **CSV**: File path to your CSV data (if using CSV mode)
-- **PartitionID**: Viva Insights partition ID (if using DirectQuery mode)
-- **QueryID**: Viva Insights query ID (if using DirectQuery mode)
-
-### Filters
-
-The pages include pre-configured filters:
-- **Date Slider**: Control the time period for analysis
-- **Organization**: Filter by organizational unit
-- **Person Filters**: Filter to specific individuals
-
-### Customization
-
-**To customize rankings:**
-- Edit the visual filters to change ranking criteria
-- Modify the DAX measures to adjust scoring logic
-
-**To add custom metrics:**
-- Add new measures to your data model
-- Create new visuals referencing those measures
+</details>
 
 ---
 
-## Known Limitations
+<a id="troubleshooting"></a>
 
-- **Network metrics** (Strong Ties, Diverse Ties, Internal Network Size) require Viva Insights data with network analysis enabled
-  - If network data is unavailable, those visuals will show blank/null
-- **Person-level data** may be subject to organizational privacy policies and minimum aggregation thresholds
-- **Rankings** are relative to your dataset; ensure consistent date ranges for accurate comparisons
-- **DisplayName** column is required; if your data doesn't include names, you can add a calculated column or use PersonId
-- **Performance**: Large datasets (50k+ rows) may require performance optimization
-  - Consider using aggregations or Import mode instead of DirectQuery
+<details>
+<summary><strong>🛠️ Troubleshooting</strong></summary>
 
----
-
-## Troubleshooting
+<br>
 
 | Problem | Solution |
 |---------|----------|
-| **Visuals show errors** | Verify all required measures exist (see Prerequisites section) |
-| **"Cannot find field" errors** | Missing measures in your target report - add them or update to template v4+ |
-| **Network metrics show blank** | Network data not available - either data source doesn't include it, or below privacy threshold |
-| **Rankings look incorrect** | Check date filter - rankings are calculated over the selected date range |
-| **Performance is slow** | Large dataset - consider using Import mode or adding aggregations |
-| **DisplayName shows IDs instead of names** | DisplayName column missing - add names to your data or create a mapping table |
+| **Visuals show errors after paste** | Verify all required measures exist in your target report (see Prerequisites). If you're on Adoption/Impact v4+, they should already be there. |
+| **"Cannot find field" errors** | A measure or column referenced by the visual doesn't exist in your target model. Add the missing measure or update your template to v4+. |
+| **Network metrics show blank** | Network data isn't available — either the data source doesn't include it, or values are below the privacy aggregation threshold. |
+| **Rankings look incorrect** | Check your date filter — rankings are calculated over the selected date range. |
+| **`Ctrl + A` selects nothing** | Click once on the report canvas (not on a visual or pane) first, then press `Ctrl + A`. |
+| **Pasted visuals overlap existing visuals** | Always paste into a **new blank page** rather than an existing one. |
+| **DisplayName shows IDs instead of names** | `DisplayName` column is missing — add names to your data source or create a mapping table. |
+| **Performance is slow** | Large dataset (50k+ rows) — consider using Import mode or adding aggregations. |
+
+</details>
 
 ---
 
-## Feedback & Support
+<details>
+<summary><strong>🗓️ Version History</strong></summary>
 
-Have questions or issues with the Champion ID Pages?
-
-- 📄 [View main documentation](../README.md)
-- 🐛 [Report an issue](https://github.com/microsoft/CustomizeCopilot/issues)
-- 💬 [Join discussions](https://github.com/microsoft/CustomizeCopilot/discussions)
-- 📧 Contact your Copilot adoption team
-
----
-
-## Version History
+<br>
 
 ### v1.1 (May 2026)
 - Switched primary distribution to `Champion ID.pbix` for one-click open and copy/paste
+- Standardized on the **`Ctrl + A` → new blank page → paste** workflow
 - Archived the original `Champion ID Pages.pbit` under `archive/` for reference
 - Refreshed sample data
+- Restyled README to match the CustomizeCopilot hub layout
 
 ### v1.0 (February 2026)
 - Initial release
@@ -283,12 +249,14 @@ Have questions or issues with the Champion ID Pages?
 - Network metrics support (Viva Insights)
 - Compatible with Super User Adoption v4+ and Impact v4+
 
+</details>
+
 ---
 
 <div align="center">
 
 **Made with ❤️ for the Copilot adoption community**
 
-[⬅️ Back to CustomizeCopilot](../README.md)
+[⬅ Back to CustomizeCopilot](../README.md) &nbsp;·&nbsp; [🌐 Analytics Hub](https://microsoft.github.io/Analytics-Hub/) &nbsp;·&nbsp; [🐛 Report an issue](https://github.com/microsoft/CustomizeCopilot/issues) &nbsp;·&nbsp; [💬 Discussions](https://github.com/microsoft/CustomizeCopilot/discussions)
 
 </div>
