@@ -1,20 +1,30 @@
-# CustomizeCopilot - Template Add-ons
-
 <div align="center">
 
-**Downloadable add-on pages and customizations for Microsoft's Copilot adoption and impact analytics templates**
+<br>
 
-**Plug these add-ons into the base templates below:**
+# 🧠 CustomizeCopilot: Add-on Library
 
-[![Super User Adoption](https://img.shields.io/badge/Template-Super%20User%20Adoption-blue)](https://aka.ms/decodingsuperusage)
-[![Super User Impact](https://img.shields.io/badge/Template-Super%20User%20Impact-green)](https://aka.ms/superuserimpact)
+### Drop-in add-on pages and customizations for the Copilot analytics templates.
 
-⭐ **Star this repository** to receive notifications about new template versions
-👀 **Watch** for updates and announcements
+<br>
+
+[![Built by Microsoft](https://img.shields.io/badge/Built%20by-Microsoft-0078d4?style=for-the-badge&logo=microsoft&logoColor=white)](https://microsoft.github.io/Analytics-Hub/team/)
+[![Analytics Hub](https://img.shields.io/badge/Analytics%20Hub-11%20Repositories-8661c5?style=for-the-badge&logo=github&logoColor=white)](https://microsoft.github.io/Analytics-Hub/)
+
+<br>
+
+**Found this useful? ⭐ Star this repo to help others discover it!**
+
+<br>
+
+**[Introduction ↓](#introduction)** &nbsp;·&nbsp; **[How to Merge ↓](#how-to-merge)** &nbsp;·&nbsp; **[Champion ID Pages ↓](#champion-id)**
+
+<br>
 
 </div>
 
 ---
+<a id="introduction"></a>
 
 <details open>
 <summary><strong>📖 Introduction</strong></summary>
@@ -41,6 +51,8 @@ These add-ons are compatible with:
 </details>
 
 ---
+
+<a id="how-to-merge"></a>
 
 <details>
 <summary><strong>🔄 How to Merge Templates</strong></summary>
@@ -155,6 +167,8 @@ Open the modified `.pbip` in Power BI Desktop and verify everything loads correc
 </details>
 
 ---
+
+<a id="champion-id"></a>
 
 <details>
 <summary><strong>🏆 Champion ID Pages</strong></summary>
