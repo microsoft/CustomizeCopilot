@@ -76,22 +76,22 @@ This add-on contains **2 report pages**:
 
 ### Download
 
-Grab **[`Merge Champion ID.pbix`](./Merge%20Champion%20ID.pbix)** from this folder. It's a ready-to-open Power BI report containing both Champion ID pages and sample data — no parameters or data connection required to preview.
+Grab **[`Champion ID.pbix`](./Champion%20ID.pbix)** from this folder. It's a ready-to-open Power BI report containing both Champion ID pages and sample data — no parameters or data connection required to preview.
 
-> The earlier template format (`Champion ID Pages.pbit`) has been moved to [`archive/`](./archive/) for reference. The `.pbix` is the recommended download going forward because it opens instantly and the copy/paste flow below works without any prompts.
+> Prefer the template format? **[`Champion ID.pbit`](./Champion%20ID.pbit)** is also in this folder. The `.pbix` is the recommended download because it opens instantly and the copy/paste flow below works without any prompts. The original `Champion ID Pages.pbit` remains under [`archive/`](./archive/) for reference.
 
 ### Steps
 
 #### 1. Open both reports side by side
 - Open your main report (Super User **Adoption** or **Impact**) in Power BI Desktop
-- Launch a **second** Power BI Desktop window and open `Merge Champion ID.pbix`
+- Launch a **second** Power BI Desktop window and open `Champion ID.pbix`
 
 #### 2. Add a blank page in your target report
 - In your Adoption/Impact report, click the **+** at the bottom of the page tabs to create a new blank page
 - Name it `Champion ID` (or whatever you prefer)
 
-#### 3. Select all visuals in `Merge Champion ID.pbix`
-- Switch to the `Merge Champion ID.pbix` window and open a Champion ID page (start with Page 1)
+#### 3. Select all visuals in `Champion ID.pbix`
+- Switch to the `Champion ID.pbix` window and open a Champion ID page (start with Page 1)
 - Click anywhere on the report canvas (not on a visual), then press **`Ctrl + A`** to select every visual on the page
 
 #### 4. Copy and paste into the new page
@@ -101,7 +101,7 @@ Grab **[`Merge Champion ID.pbix`](./Merge%20Champion%20ID.pbix)** from this fold
 
 #### 5. Repeat for Page 2
 - Add a second blank page (`Champion ID — Extended`)
-- Back in `Merge Champion ID.pbix`, switch to Page 2 → `Ctrl + A` → `Ctrl + C`
+- Back in `Champion ID.pbix`, switch to Page 2 → `Ctrl + A` → `Ctrl + C`
 - In your target report → `Ctrl + V` into the new blank page
 
 #### 6. Verify and save
@@ -234,6 +234,11 @@ The Champion ID pages depend on **25 DAX measures** that must exist in your targ
 <summary><strong>🗓️ Version History</strong></summary>
 
 <br>
+
+### v1.2 (August 2026)
+- Rebuilt from the current report source with a missing-column guard so refresh no longer breaks when a Viva Insights export drops or renames expected Copilot metric columns
+- Primary download renamed to `Champion ID.pbix`; added the `Champion ID.pbit` template alongside it
+- Refreshed sample data
 
 ### v1.1 (May 2026)
 - Switched primary distribution to `Merge Champion ID.pbix` for one-click open and copy/paste
